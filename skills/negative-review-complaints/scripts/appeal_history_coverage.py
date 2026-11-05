@@ -13,15 +13,11 @@ KIND='negative-review-appeal-history-coverage-observation-v1'
 AUDIT='public-appeal-history-entry-scope-audit-v1'
 FILES=('source-tree.json','review-settled-tree.json','toolbox-open-reply.json','toolbox-hover-reply.json','toolbox-hover-tree.json','all-rating-reply.json','all-rating-tree.json','status-options-open-reply.json','status-options-tree.json')
 def _load_known():
- path = Path(os.environ.get('ZMAIBAOLE_APPEAL_IDENTITIES', str(Path(__file__).resolve().parents[1] / 'config/appeal-history-identities.json')))
- if not path.exists(): return {}
- data = json.loads(path.read_text(encoding='utf-8'))
- if not isinstance(data, dict): raise ValueError('appeal-history-identity-config-invalid')
- result = {}
- for gid, value in data.items():
-  if not str(gid).isdigit() or not isinstance(value, list) or len(value) != 4 or not all(isinstance(x, str) and x.strip() for x in value): raise ValueError('appeal-history-identity-config-invalid')
-  result[str(gid)] = tuple(value)
- return result
+ path=Path(os.environ.get('ZMAIBAOLE_APPEAL_IDENTITIES',str(Path(__file__).resolve().parents[1]/'config/appeal-history-identities.json')))
+ if not path.exists():return {}
+ data=json.loads(path.read_text(encoding='utf-8'))
+ if not isinstance(data,dict) or not all(str(k).isdigit() and isinstance(v,list) and len(v) in (3,4) and all(isinstance(x,str) and x.strip() for x in v) for k,v in data.items()):raise ValueError('appeal-history-identity-config-invalid')
+ return {str(k):tuple(v) for k,v in data.items()}
 KNOWN=_load_known()
 HINT='已归档案例数不是全月总量；评价时间不是投诉时间，评价状态是可见性；已查菜单未见独立申诉历史入口，成功移除/隐藏及更早评价的本月申诉尚未证明覆盖。'
 def need(ok,reason):memory_api.need(ok,'appeal-coverage-'+reason)

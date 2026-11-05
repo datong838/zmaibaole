@@ -67,3 +67,7 @@ __pycache__/
 *.bundle
 *.pem
 *.key
+
+/docs/
+**/runtime/
+**/node_modules
