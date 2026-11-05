@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "mode": "draft-only",
+  "submit_enabled": false,
+  "wecom_target": "测试群请忽略",
+  "browser_backend": "codex-existing-extension",
+  "live_adapter_accepted": false
+}

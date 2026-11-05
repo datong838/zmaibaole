@@ -1,0 +1,11 @@
+{
+  "audit_original_evidence_sha256": "a7bb9351c5f2e720b9e05f57c15ad077e1a31d172bcbd004d3d29021c78aadb5",
+  "kind": "reviewed-public-rating-label-map-v1",
+  "observed_exact_label_to_rating": {
+    "一般": 3,
+    "超赞": 5,
+    "较差": 2,
+    "非常差": 1
+  },
+  "version": 1
+}

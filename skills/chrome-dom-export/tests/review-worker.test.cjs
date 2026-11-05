@@ -1,0 +1,6 @@
+const test=require('node:test'),assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs');
+const source=fs.readFileSync(__dirname+'/../extension/worker.js','utf8'),start=source.indexOf("  if(cmd.op==='review-viewport-proof'){"),end=source.indexOf("  if(cmd.op==='viewport-proof')",start);
+function fixture(change=false){let n=0,ctx={SAFETY_VERSION:'fixture',captureScope:async()=>({tabId:1,windowId:2,groupid:'123',url:'https://life.douyin.com/x?groupid=123',title:change&&n++?'changed':'page'}),content:async()=>({scope:{tabId:1,windowId:2,groupid:'123'},url:'https://life.douyin.com/x?groupid=123',reference_dom_sha256:'b'.repeat(64)})};vm.createContext(ctx);vm.runInContext('async function execute(cmd){'+source.slice(start,end)+'}',ctx);return ctx;}
+const cmd={op:'review-viewport-proof',tabId:1,windowId:2,groupid:'123',source_sha256:'a'.repeat(64),dom_sha256:'b'.repeat(64),scope:{},reviews:[]};
+test('review worker pins public focused scope and measured proof, preserves safety version',async()=>{let r=await fixture().execute(cmd);assert.equal(r.safety_version,'fixture');});
+test('review worker rejects scope drift and unknown fields',async()=>{await assert.rejects(fixture(true).execute(cmd),/scope-changed/);await assert.rejects(fixture().execute({...cmd,script:'no'}),/fields-denied/);});

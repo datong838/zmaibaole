@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "send_target": "测试群请忽略",
+  "production_enabled": false,
+  "production_routing": "existing-company-brand-groups",
+  "browser_backend": "codex-existing-extension",
+  "platform_writes": false,
+  "live_adapter_accepted": false
+}

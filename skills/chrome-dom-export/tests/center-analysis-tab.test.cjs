@@ -1,0 +1,19 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
+const dir=__dirname,repo=path.resolve(dir,'../../..');
+const current=fs.readFileSync(path.join(repo,'skills/chrome-dom-export/extension/content.js'),'utf8');
+const currentBuild=current.match(/const BUILD='([^']+)'/)[1];
+const strictRule=current.slice(current.indexOf('  function governanceAnalysisTabRule(e){'),current.indexOf('  function governanceRule(e){'));
+// Synthetic prior BUILD only, never a claimed previous live policy.
+const previous=current.replace("const BUILD='"+currentBuild+"'","const BUILD='synthetic-previous-build'");
+function fixture(){
+ const n=(tag,text,cls)=>({tagName:tag,_name:text,children:[],getAttribute(k){return k==='class'?cls:null;},closest(){return this.blocked||null;},classList:{contains:c=>cls.split(' ').includes(c)}});
+ const root=n('DIV','',''),outer=n('DIV','','governance_merchant-tab-bar-items-container'),inner=n('DIV','','governance_merchant-tab-bar-items-inner'),base='governance_merchant-tab-bar-item governance_merchant-tab-bar-item-type-basic',analysis=n('DIV','违规分析',base),prevent=n('DIV','违规预防',base+' governance_merchant-tab-bar-item-active');
+ analysis.children=[n('SPAN','违规分析','governance_merchant-tab-bar-item-label')];prevent.children=[n('SPAN','违规预防','governance_merchant-tab-bar-item-label')];inner.children=[analysis,prevent,n('DIV','','governance_merchant-tab-bar-items-inner-line')];analysis.parentElement=inner;prevent.parentElement=inner;inner.parentElement=outer;outer.parentElement=root;root.contains=()=>true;
+ const c={URL,location:{href:'https://life.douyin.com/p/governance/home_violation_center?groupid=123',pathname:'/p/governance/home_violation_center'},P:{origin:'https://life.douyin.com',governanceCenter:{path:'/p/governance/home_violation_center'}},governanceRoot:()=>root,name:e=>e._name,role:()=> 'generic',visible:()=>true,document:{querySelectorAll:()=>[root]}};
+ vm.createContext(c);vm.runInContext(strictRule,c);return {c,root,inner,analysis,prevent};
+}
+let f=fixture();assert.equal(f.c.governanceAnalysisTabRule(f.analysis).kind,'navigation');
+for(const mode of ['path','group','class','label','extra-tab','form','wrong-active','label-target']){
+ f=fixture();if(mode==='path')f.c.location.pathname='/p/other';if(mode==='group')f.c.location.href+='&groupid=456';if(mode==='class')f.analysis.getAttribute=()=> 'unreviewed';if(mode==='label')f.analysis.children[0]._name='其他';if(mode==='extra-tab')f.inner.children.push(f.prevent);if(mode==='form')f.analysis.blocked={};if(mode==='wrong-active')f.prevent.getAttribute=()=> 'governance_merchant-tab-bar-item governance_merchant-tab-bar-item-type-basic';assert.throws(()=>f.c.governanceAnalysisTabRule(mode==='label-target'?f.analysis.children[0]:f.analysis),undefined,mode);
+}
+let active,added=0,removed=0;const c={chrome:{runtime:{id:'synthetic',onMessage:{addListener(fn){active=fn;added++;},removeListener(fn){assert.equal(fn,active);removed++;}}}},location:{origin:'https://life.douyin.com',pathname:'/p/governance/home_violation_center',href:'https://life.douyin.com/p/governance/home_violation_center?groupid=123'},document:{title:'synthetic',querySelectorAll:()=>[]},URL};vm.createContext(c);vm.runInContext(fs.readFileSync(path.join(repo,'skills/chrome-dom-export/extension/policy.js'),'utf8'),c);vm.runInContext(previous,c);vm.runInContext(current,c);assert.equal(removed,1);assert.equal(added,2);let reply;active({channel:'local-dom-export-v1',op:'ping'},{id:'synthetic'},r=>reply=r);assert.equal(reply.result.version,'dom-only-20261021-11');assert.equal(reply.result.content_build,currentBuild);assert.equal(reply.result.governance_analysis_tab_policy,'observed-analysis-tab-v1');console.log(JSON.stringify({passed:10,scope:'synthetic exact analysis pair and hot BUILD replacement'}));

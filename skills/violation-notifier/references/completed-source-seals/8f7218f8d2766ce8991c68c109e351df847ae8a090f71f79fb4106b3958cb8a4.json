@@ -1,0 +1,657 @@
+{
+  "kind": "completed-violation-field8-three-source-data-seal-v1",
+  "parent": {
+    "path": "/Users/feibing/work/projects/zmaibaole/runtime/workshop-director/role-executions/2127e7e4bf4986475d80f672901e6aaafab1414c5b23561418feb8e174193dc4/launcher.json",
+    "sha256": "8f7218f8d2766ce8991c68c109e351df847ae8a090f71f79fb4106b3958cb8a4"
+  },
+  "engine": {
+    "path": "/Users/feibing/work/projects/zmaibaole/runtime/workshop-director/role-executions/2127e7e4bf4986475d80f672901e6aaafab1414c5b23561418feb8e174193dc4/engine.json",
+    "sha256": "8571a19012795f31a10ee1b78e11325ea2b1648a727756135341198e0caf9ed4"
+  },
+  "completion": {
+    "path": "/Users/feibing/work/projects/zmaibaole/runtime/workshop-director/role-executions/2127e7e4bf4986475d80f672901e6aaafab1414c5b23561418feb8e174193dc4/completion.json",
+    "sha256": "c502ac2f8d71505278d6446e056fb2ba5affac4e764bf0dbeb799fd2b86c9a54"
+  },
+  "report": {
+    "path": "/Users/feibing/work/projects/zmaibaole/runtime/standalone-workshop-director/attempts/task-408030b62d9befbbf9133ca8-3/completion-report.json",
+    "sha256": "5429d37b94aa9b2b7fe87e44e48c2fb7db3473306ca1e4d4f68ea93b919032d7"
+  },
+  "recovery": {
+    "path": "/Users/feibing/work/projects/zmaibaole/runtime/workshop-director/role-executions/2127e7e4bf4986475d80f672901e6aaafab1414c5b23561418feb8e174193dc4/.confirmed-navigation-readonly-wait-recovery/ed46280ad6306f70cf9bc935ab54f8decefed50b8baeb7390d5dc1021909fdab/proof.json",
+    "sha256": "89277c079e094b791377353b1d7d714977a6ccb3a1b2c6402de9494038b260e3"
+  },
+  "historical_effective_code_refs": [
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/capture-worker.js",
+      "sha256": "fb36d7ef8247930c8786e29b4f1b93511d451cf511d18182fecbec3c811e0d66"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/content.js",
+      "sha256": "090a35790f9483694fd4c3868f7f8d975eebeea0592086a305c6ec422b2b4080"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/control.js",
+      "sha256": "0f3bd91a9d1997332ea3ee6e87556df0edd2d7d42ec136cf20a32a441524fcec"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/download-reconcile.js",
+      "sha256": "3854763403c4af44fdfd0581ac1dcaa4a3154407a7d76e08288460f3046bfb6a"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/policy.js",
+      "sha256": "3464df27fa8c6b2e1fa1bbc0bb6727c49eb4d864faec2bfddf2b4c5489261605"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/readonly-scope-worker.js",
+      "sha256": "6f7081e45b05e4736a94ce808931a19332e76e4176a13973f3c1706162983c7d"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/region-proof.js",
+      "sha256": "f390ea59e59ea37a54f95b21f2a52d9a79f97943bdcee4ab6327dcd4edfdda08"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/review-proof.js",
+      "sha256": "6449f7caf75f2f7589df538ccdc6b142f5c3b77033ef520f004d7b2041ca70a7"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw10.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw11.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw12.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw13.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw14.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw15.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw16.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw17.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw2.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw3.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw4.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw5.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw6.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw7.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw8.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/sw9.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/viewport-proof.js",
+      "sha256": "6068d077d55023d2dff2cc1c75bdc4c3d162ee0482d48864506adc3b9efa235b"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/viewport-worker.js",
+      "sha256": "0f230c4e79d8169ba37b05335ffbfe7d6cd4ac9f0a4a402b75c164b7b6f021f2"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/worker.js",
+      "sha256": "4672304381114e8ab9ca21c1a41d1a4b1beb977e6e29c36184102817c874c369"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/ax_capture_grant.py",
+      "sha256": "2c10655c25fed1df389317b9e33ab38889020bdcffa19cf60aa07d0df7eb0ad5"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/bridge-service.py",
+      "sha256": "9998d063cdd965b323b4e25a82ca11923a449b07deb74d4e3bb1ae1ce6ee741b"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/bridge.py",
+      "sha256": "a99b58336b8007825d27458fde04ea7ce68773181471c0d6f0e14a84daca301d"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/business_cells_capture.py",
+      "sha256": "ae1acb3336b002e84ab535544605b266d86e642659ff0d09cb4465e1abfb5253"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/chrome_process_identity.py",
+      "sha256": "3a1076a7cb10c77b6d7ccb4b2478da86a0b15fc9a18e4d2ae6dd1be18b22b170"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/drive.py",
+      "sha256": "5f532f6af5fc093faa511356e9f98fb60b198e9d9471d8a639c2266a79e591dd"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/frame_capture.py",
+      "sha256": "25b9001cfdfb4a02d20bfb3294128d5995e206d65a526576d18b66b94a209fd4"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/governance_projection.py",
+      "sha256": "11484ced8fd7b119d67327af7a4030da6293b559ff0ffd02bec973659356154c"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/install.py",
+      "sha256": "0f47701406b7859421f63460d088b98e28bf414bcf8bd1b1ba04631b18c1746d"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/native_capture_repair.py",
+      "sha256": "c9695e33051f9aab8adc7dffc9826964d090b5d1491028cbea6363ac2b7799ed"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/native_region_capture.py",
+      "sha256": "18342b30ff5569c0dc945b056a5791a0037415c98bb9707aa71b5811029f363c"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/native_window_capture.py",
+      "sha256": "85dafec4ea41c5709656b96bee34983bc91bbeb659ab458205dadee8374ec43f"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/review_capture.py",
+      "sha256": "b85fc3615df3b873c51bb29c3ad13fd7db98b7f217a51cafbeab2969dc19666f"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/review_region_capture.py",
+      "sha256": "3d210bd0221e7e0eb4580b0b0e5341ffc73280ca1792fbd03357e0f3835c994f"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/review_registration.py",
+      "sha256": "649a7675e99d6af83c046d12f7e0b847ced3b3347b5f0a7d555b17daeaa5cdc6"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/screenshot_identity.py",
+      "sha256": "1832d13212b57286d6fce946d20935212973f762da08c0c34cc0daa62a3b0679"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/screenshot_registration.py",
+      "sha256": "50d3f269ad40577257addeec339e176e9985bd92835ba499d69c772ce6ce9a3d"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/verified_capture.py",
+      "sha256": "c8dbf80a9d171a684eac932d423c3ccd462882f1cecb9cba2a595894ea38160f"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/visible_capture.py",
+      "sha256": "d2195210ba1c7c46e1e20e06eb0729d15159e9e2c6e4e615a8c1624899b84559"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/acquire.mjs",
+      "sha256": "a3fc9b57752b7e92c84a11fba5f4c6de9999e3a75855cf0a707a00b22c0178d4"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/bridge-discovery.py",
+      "sha256": "6ecc6557e700e6123086a334b9286b6ed175f7effa31850da07f75952370ff85"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/bridge-workflow.py",
+      "sha256": "6f80c1ca0e43f15d719f69ff32f9426ef0ed8dda864339b7bb4f6dbd22022b9e"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/chrome-control-update-focus-space.py",
+      "sha256": "f747c6cd56b6e112e27c5210e62b0bd71297f31a3f270a1f26ee0e30ab852317"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/chrome-maintenance-control.py",
+      "sha256": "77b7c1a913e920905a59f3afe092779e8a069efdf39cb148b8b07628c7974d68"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/chrome-normal-zoom-menu-proof.py",
+      "sha256": "234270dd625c65f2e9a063aca7b767821fdf0cfe9a9c342549bfe6190856e20d"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/chrome-normal-zoom-out.py",
+      "sha256": "86c8dc9f0d3ebafda51b98cc554fb8882c76bcd45c68db68207384e69ad5b61f"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/chrome-popup-navigation.py",
+      "sha256": "cead965c93351360650aebd1d990a85bb5615a13dba3c3c1f9060cef025d84b7"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/chrome-select-existing-control-tab.py",
+      "sha256": "713fec113c23bd8512edb99ff7c2295a82b4021e94e5fdd41b18d14865915aa0"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/chrome-shell-diagnostic.py",
+      "sha256": "a78d64ddd158bff23b5d957bf7df33f8f8333e561b09cc70fb3716d22fbd95a9"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/company_search_recovery.py",
+      "sha256": "f48372c746dd699aaa6c4fecb7e14ac563d07b088a3dd66caae402af2fa7ab6c"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/company_search_wait.py",
+      "sha256": "81c2822a957ba5a961c39f1e96bb4eb9c71a8819e256502fbef0b794ff45b089"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/dom_evidence.py",
+      "sha256": "1b5b537e4c95835d1f4effd14c2b98d637ea02aaa8fe95c3921e559f0201c8f4"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/export_baseline_pages.py",
+      "sha256": "9e18d1d5052a967e1bd7d0db4d91e4e0eb2d2730f2ed4b3337616ae55c4f9fd0"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/export_record_page_recovery.py",
+      "sha256": "9679955cc8fb546acd01645eeaa76d06e37002aeae6411de7a3281795eddee40"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/native_blank_alias_continuation.py",
+      "sha256": "44dc20eb5db3bf2de65ff67d3e75b51fa0ed9cae134fb9229f459a3509e026eb"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/native_closed_control_reopen.py",
+      "sha256": "f7a1b0c189c3f8afc04c42580f3f7667dd69a0c0d0ebb08411ed65386a8dbcbf"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/native_control_maintenance_order.py",
+      "sha256": "54ad8897bcd1fc7149bc023de19f99a2b48c225aad9842e520475b515aa5f041"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/native_menu_control_maintenance.py",
+      "sha256": "824032448d9de5a3471f7dbbc022fcb83a405661988a365dd73d2ee8bd1733ff"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/popup-recover-download.py",
+      "sha256": "b05c277f029d53321a482f786d2a6a8f59a8dc692e2e6721a95fda04b3d4939c"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/popup-recover-record.py",
+      "sha256": "08bc28dff000974dad03f3e498298e57f84c63ed3c94c68fbee86bee4ac37ed1"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/prepare_company_navigation.py",
+      "sha256": "30022fe829b217d3f874e0b36e64da3d4c0c3ea932405975a5595fa48b1e62d1"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/readonly_tick_snapshot.py",
+      "sha256": "e231312e7d97f5fe6df2b03f03f13018512bc7980ea8761a165ce67213402e08"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/review_filter_loading.py",
+      "sha256": "c993fdd1de20914cae618efd864472ba6d48eab4a83baf74ee3dedf282def3c1"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/role_cli.py",
+      "sha256": "c9f8d79b5b27a7ab6a08b240226b26f1081b0de1e045adc8dd87f44c7d310d97"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/stepped-runtime.mjs",
+      "sha256": "7d0c08dc61cd031c2b3d8b2ecffe7756f2a78527cfca066cdc71199345f7fde9"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/switch_read_recovery.py",
+      "sha256": "8381addf15630c54d0d48a216f10126f5beb45a417194d78b11186c944560438"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/switch_scope_snapshot.py",
+      "sha256": "26a9e8060b2495804fae7b63567dd6ad10c01f50d9788e58924f57616bc60ec4"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/window-evidence.py",
+      "sha256": "6e5ae2b54dbe2ce620439e61c570f69c98b35704cab1b716fb126d0cb31262a9"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/workflow-runtime.mjs",
+      "sha256": "916d021c780e2b89dcff6a776703f34ba3ba97941174459eb8db15079e113d4a"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/bridge-governance-query.py",
+      "sha256": "5270ff1e3979c669229b61103a42466d008d2ebbd30b02c42ad128efe1c4ec37"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/bridge-navigation.py",
+      "sha256": "9378e73975f060a0a8d9202880aa6846df747fa47248b5f8d34d23dcf77fb6f9"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/bridge-profile-discovery.py",
+      "sha256": "70f078bca0fef9849ce9916c9b8f1e13122cc381c85243d12cb0dd42e3f070f4"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/browser-read.mjs",
+      "sha256": "3b8675678e7001dd7b6faac0621e8a783b58de4f9a344f92177cd14c5debf8e6"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/build-report.mjs",
+      "sha256": "04bfb4091ff874915933c1de23f498aebc5caa499159126003ab8aee3cbeb7a7"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/center_analysis_tab.py",
+      "sha256": "d443fd705e0e3b42696d47cd3f9368182f3d09f3e32bb4427d149e58935e11f7"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/center_legacy_layout.py",
+      "sha256": "c55f24cbfdcf3fe659a03c3668c415d2749321b4fb64d7f2e281880b5e789df9"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/center_reconciliation.py",
+      "sha256": "baad190c789993c01debd15bac687b2dadc9f6a9d4395ccd78c7a15ae2c6a8ae"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/dispatch_validation_context.py",
+      "sha256": "74e3902b4aa23c840e98b6c957a034d025ac2cfe2456da27e9c32efaa523013f"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_capture.py",
+      "sha256": "c74ff1b338dc20e59778d2a61fc801e6c8994ba9eeb301cdbe7cc388dd018b30"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_detail.py",
+      "sha256": "ae19f3880bb4be5c7815a98920ba534d372d63a3a9133820730b383056b26120"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_dom.py",
+      "sha256": "5bf2c1dd915bdc3c04c0b3c5a510bae87fd010cdba6b6e6944ccdd58e0ac506b"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_rates_completion.py",
+      "sha256": "e1ed644d4e5822c2bbbdf332c1e7667e69aece441c89dbe6385783451c10bc57"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_rates_direct_recovery.py",
+      "sha256": "a6030c1145b8cbc37069210480c994941c8878f827e692f8ebbbda0a8590a2bf"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_rates_direct_replay.py",
+      "sha256": "5f54b8892a6578e7b89fe3220b0217192edf654d668277b8636cdcef0441944a"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_rates_recovery.py",
+      "sha256": "cf20e448a918b3f280c316fcb478c0c56637eab5d8d84c63df328c159b93155d"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_rates_recovery_verification.py",
+      "sha256": "5f40b39bd634c16adee47874ddc4cd7e91afc9e881de0a8e75a6449176b6d671"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_rates_stop_loss.py",
+      "sha256": "20fbd8e93aa30cf0a63e955046e6ff107ef200627a221c440b62048e2915b756"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_stock_stop_loss.py",
+      "sha256": "c280b4ea7905924df45803983010c5d223a50cc696ff27164bbc7a52e2740850"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_stop_loss.py",
+      "sha256": "f0619a240b23f85446d9cda92d357c9c92c98816ff2d1ba2f633f550975afefd"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_stop_loss_integration.py",
+      "sha256": "c7736ced3f764c3718f5335fe810d66d3b34f007b9ea47e76a60ea1a01c5cf97"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_stop_loss_production.py",
+      "sha256": "d03625b7455e8075bb5396a65d9442d3d9ca541b9ca5b7df79fb77993057656a"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_zero_capture.py",
+      "sha256": "b902cab6b4541ba6b4f1fcd861c656c211739ade9c81d3ca4a1d2aee7a2f7936"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/native_frame_capture.py",
+      "sha256": "06d432e8e0eebc2e4d1127c552db75945dc0b613dfb113f88073caa4c945192c"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/navigation_read_probe.py",
+      "sha256": "aca180bda50e195a39de7c96a0468bd2724dbc731e42248156288ce7155f4a05"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/prepare_records_capture_order.py",
+      "sha256": "5229e6a998346f5c8b352daa5fb335c984448cc896aa26153e7d551316aa9bac"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/prepare_records_profile.py",
+      "sha256": "04ee94dfae5a2063044ba67f5e5fee74b5397299987ab3549e7b8a67d1912e14"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/preselected_record_range_recovery.py",
+      "sha256": "b0ce85c6f754ff5b807ee6b82979045143e70b1bc6ea3d84ed6888303cd28a0f"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/program_core_region_quality.py",
+      "sha256": "6a9e646dc7c403b7bedc2b4a5cc57452e23b6b3accbea6435794f0847a2edb14"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/program_epoch_rows_quality.py",
+      "sha256": "ffc3ae7b8339c01550275ff212677952af870eda21a474518fa84b62ee588a8d"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/program_object_ellipsis_quality.py",
+      "sha256": "45ec16edbd44915fbf72432baa567234d4b8130384513b2089516fd9e2add200"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/program_region_quality.py",
+      "sha256": "82b58817662e8e8565f473167a69e139b1ce76ee134d377b4e93153cc871407c"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/public_copy_producer.py",
+      "sha256": "0a981aaae656bdffb8107e13830356ebab3b6bdbc83998044b08e5b1d930369b"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/public_copy_template.py",
+      "sha256": "8bbb78c4a08f338fc370589e1de4f57f0e170b8b07e30edae07980f2781954c8"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/reconcile_center_navigation.py",
+      "sha256": "09d7ca6d931fefcf177e05cc66958acfdcde7acc9925885f985167c90e8dafc5"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/reconcile_detail_countdown.py",
+      "sha256": "3287693398b0e06e3727f2187f55d67836fcb39942147421d7c683a9300c1dd5"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/records_region_navigation.py",
+      "sha256": "e5c1936cc1889bbbb5b98469a8465eed959c3f81530a2cc5ca65c5abd61cfe34"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/region_frame_capture.py",
+      "sha256": "59c4f99673d42e9e6b34bfde237b08ae8e9a2592fd344559e1260a440d42c46c"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/region_postguard_retake.py",
+      "sha256": "c85e64e362cad7a29a7df71ccefdb48be267b8062822ecf3169e9469ba5b64cc"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/registration_validation.py",
+      "sha256": "db5d89897e06adb1013cad779bdf7dab4b3df53076e1bf6697f313b609f09368"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/rows_character_range_quality.py",
+      "sha256": "268dfc92a9c5036a4e65e8a4b3b45580726b0393833b6809992c13613e1b6ee8"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/semantic-intake.mjs",
+      "sha256": "bd220855ffe5fd81cbd7ba810a8ca71ccf0b850de3f35416178bf4caf6ffc6d8"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/stop_loss_route_recovery.py",
+      "sha256": "41d4b387311347970455fbc172d83abafcc3de15104488e9254de37787e45299"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/verification_session.py",
+      "sha256": "52ed58cf2e27a41bdf5ece5071fc1a2c1fabd11601e20eff1617773e9f650d0e"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_execution.py",
+      "sha256": "fe77127740de9f2705e42a8767e2fe1e31cf08c284c3828172ebae2427e01bc1"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_execution_ports.py",
+      "sha256": "a3f25afb2cd04df840c7b740ccbc2a8e66e2595dc58796f61a07d6bd4a2183b2"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_initial_ledger_recovery.py",
+      "sha256": "04418f0bfcb930b37db79f3b2889368fad4e2eb6befda02a2ce49d08952f8941"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_reboot_continuation.py",
+      "sha256": "0dda8805f08be3cd4fc17341e5d629c9553b978e6e3c2e18d5fa3ca9438b110a"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_reboot_profile.py",
+      "sha256": "f86a67cec4ced15d65f5fd3093e205b280764f5f5a5cac8a4c61ac0a0af5fad3"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/workflow.py",
+      "sha256": "0630ce9e3dd0cf82b5c35d067a4a246c50dfab05caaa417e015cc84cccd6bc0a"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/chat_snapshot.py",
+      "sha256": "7a4b6ea9b1f51ebd19f60ff26dd2abea9c3ece05e28ef8f8cb5a468ce2a00f44"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/composer_guard.py",
+      "sha256": "6f5460a5c9fb61893584e61fa1a44c967fa69d48bd11ef96d98637b08f68a860"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/diagnose_locate.py",
+      "sha256": "9ea972b4b397c1ea12f4f00a19b1091522ac67b6564867ad8fd1f3fbec836d27"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/files.py",
+      "sha256": "a4d4a6c2e9290b694d7658d21c6fbe28f5c331106ea546ce592923fee8d6961b"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/guard_context.py",
+      "sha256": "bc5e63d336c094f5b46353031676d2a486952fd737b9118e9b0dcc0b33436790"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/image_draft_copy.py",
+      "sha256": "c4718a18d0f5c68491a69dfd6c96847dc8cffa9f581a871c48d8458f3168c1e2"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/image_draft_recovery.py",
+      "sha256": "a0b94bc3cc6eb34e2827d714e53af1c1f0f23217bd3bedc0179b4cbc2d2edef7"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/image_paste_repair.py",
+      "sha256": "50fa05434ace876f69f7bacd6f976015d25c1e646384dccbe5d32ac6792d9a84"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/image_verify.py",
+      "sha256": "566b5c0db294b7fc185005003a64bf35aa9f2dafb6eeb6234e700bd9f990484f"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/images.py",
+      "sha256": "0788147c9968c7e16e3b1ed65ab65c3dd13ae8f9b001bc052cf851ac2954357b"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/main_window.py",
+      "sha256": "0711e645b7934791f3f5ba4e243a522546d78889ade3e84cd5413b51c5209bb0"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/messenger.py",
+      "sha256": "e86e962508f75c534781faad1a23a42fe2ac2e4406c26b71b8da1ea6572fe5ac"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/native.py",
+      "sha256": "8b14ddafa8814e4b464636fa8a3e7275e7b08e312bdb98a15842896a64ca3e38"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/pasteboard.py",
+      "sha256": "bd56f7673e074e999279b725162204be832fbdafb31e1a33b486c40ea1b2266c"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/performance_trace.py",
+      "sha256": "8fc54526b2dd3847fd88a6d76b5b2895b307e7b0d20ad7ea2c165e3384aa0b89"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/public_app_activation.py",
+      "sha256": "38f5441bbca52e6f3d9edd327bb1f09819fbfe817b4c261cde13e2df52a68269"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/sender_preinput_recovery.py",
+      "sha256": "9a4323da64943a38a6748845e37c545babe32ed6063b780d368a7d7737945c9b"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/ui.py",
+      "sha256": "a5d7afce82631607399ec5006180d73d525e317f96c5856679cb4ac02d5b4936"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/workshop-director/scripts/daily_completed_archive.py",
+      "sha256": "84a410892b4fb711da06e1971640f33a673b821a8e884d8e8a0836fed374a269"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/workshop-director/scripts/execution_timing.py",
+      "sha256": "d38d42e0f0aa221757f591136a3f3b1600975b2ef09b6592058cc75b14dee7af"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/workshop-director/scripts/role_execution_launcher.py",
+      "sha256": "8a8318aca7da0478422a7adfa6542a8e7349a592acf6f2b3a426869f819fd181"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/workshop-director/scripts/role_execution_orchestration.py",
+      "sha256": "ffba68ce1c1f5417a013949a67cdc65b93cabf09692e21e044d3c8cfd575c232"
+    },
+    {
+      "path": "/Users/feibing/work/projects/zmaibaole/skills/workshop-director/scripts/role_execution_order.py",
+      "sha256": "538ea9f14afc2a78d5e9bf3c404a07062f4320b7fbece18f88e639430750706c"
+    }
+  ],
+  "archives": [
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_initial_ledger_recovery.py",
+        "sha256": "04418f0bfcb930b37db79f3b2889368fad4e2eb6befda02a2ce49d08952f8941"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/04418f0bfcb930b37db79f3b2889368fad4e2eb6befda02a2ce49d08952f8941.py",
+        "sha256": "04418f0bfcb930b37db79f3b2889368fad4e2eb6befda02a2ce49d08952f8941"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_execution_ports.py",
+        "sha256": "a3f25afb2cd04df840c7b740ccbc2a8e66e2595dc58796f61a07d6bd4a2183b2"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/a3f25afb2cd04df840c7b740ccbc2a8e66e2595dc58796f61a07d6bd4a2183b2.py",
+        "sha256": "a3f25afb2cd04df840c7b740ccbc2a8e66e2595dc58796f61a07d6bd4a2183b2"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_zero_capture.py",
+        "sha256": "b902cab6b4541ba6b4f1fcd861c656c211739ade9c81d3ca4a1d2aee7a2f7936"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/b902cab6b4541ba6b4f1fcd861c656c211739ade9c81d3ca4a1d2aee7a2f7936.py",
+        "sha256": "b902cab6b4541ba6b4f1fcd861c656c211739ade9c81d3ca4a1d2aee7a2f7936"
+      }
+    }
+  ]
+}

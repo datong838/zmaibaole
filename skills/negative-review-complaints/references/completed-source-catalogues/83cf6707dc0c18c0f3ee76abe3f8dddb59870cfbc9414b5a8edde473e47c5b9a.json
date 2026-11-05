@@ -1,0 +1,159 @@
+{
+  "kind": "reviewed-complaint-source-generation-catalogue-v1",
+  "entries": [
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/scripts/complaint_execution_ports.py",
+        "sha256": "4483a9a4da08ae6db51f6171cdb630c4f2c63657561fe81669529e3af361f6be"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/references/completed-source-archives/4483a9a4da08ae6db51f6171cdb630c4f2c63657561fe81669529e3af361f6be.py",
+        "sha256": "4483a9a4da08ae6db51f6171cdb630c4f2c63657561fe81669529e3af361f6be"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-26/shanghai-source-guard-preinput-maintenance/supervisor-release.json",
+          "sha256": "7f0c78a3347162e7bd202bcdd8e4b3dd6c99e7c18e74ece87181d2481aa411f4"
+        },
+        "slot": "after"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/scripts/complaint_execution_ports.py",
+        "sha256": "a4a40e2faab5e1d19d3d5a3c1a347ea492d79f78498c2adff9aa5f2780c7bb3d"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/references/completed-source-archives/a4a40e2faab5e1d19d3d5a3c1a347ea492d79f78498c2adff9aa5f2780c7bb3d.py",
+        "sha256": "a4a40e2faab5e1d19d3d5a3c1a347ea492d79f78498c2adff9aa5f2780c7bb3d"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-26/complaint-memo-cluster-sealed-source-publication/supervisor-release.json",
+          "sha256": "7fe48d7ac021b9b29a16d3d88d3bb1fedb69d99da07d17da82c686829e15def0"
+        },
+        "slot": "after"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/scripts/initial_ledger_recovery.py",
+        "sha256": "7d44243ce8557bbfdbba0f386801cc07b4523cfbd4ee8e35c4e59e5b934d014a"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/references/completed-source-archives/7d44243ce8557bbfdbba0f386801cc07b4523cfbd4ee8e35c4e59e5b934d014a.py",
+        "sha256": "7d44243ce8557bbfdbba0f386801cc07b4523cfbd4ee8e35c4e59e5b934d014a"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-26/complaint-memo-cluster-sealed-source-publication/supervisor-release.json",
+          "sha256": "7fe48d7ac021b9b29a16d3d88d3bb1fedb69d99da07d17da82c686829e15def0"
+        },
+        "slot": "after"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/scripts/initial_ledger_recovery.py",
+        "sha256": "d3d98e454a843c5b3d3f88bf6f17bdbe956d1f707423a49da8369f1a2c670fc3"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/references/completed-source-archives/d3d98e454a843c5b3d3f88bf6f17bdbe956d1f707423a49da8369f1a2c670fc3.py",
+        "sha256": "d3d98e454a843c5b3d3f88bf6f17bdbe956d1f707423a49da8369f1a2c670fc3"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-26/shanghai-source-guard-preinput-maintenance/supervisor-release.json",
+          "sha256": "7f0c78a3347162e7bd202bcdd8e4b3dd6c99e7c18e74ece87181d2481aa411f4"
+        },
+        "slot": "after"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/files.py",
+        "sha256": "a4d4a6c2e9290b694d7658d21c6fbe28f5c331106ea546ce592923fee8d6961b"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/references/completed-source-archives/a4d4a6c2e9290b694d7658d21c6fbe28f5c331106ea546ce592923fee8d6961b.py",
+        "sha256": "a4d4a6c2e9290b694d7658d21c6fbe28f5c331106ea546ce592923fee8d6961b"
+      },
+      "generation": {
+        "kind": "completed-original-source-vector-seed-v1",
+        "parent": {
+          "path": "/Users/feibing/work/projects/zmaibaole/runtime/workshop-director/role-executions/04aa9bbc9f52203b562ea0364db96afa8dc54fd842393544a5f2f161c5e41aa1/launcher.json",
+          "sha256": "d3f02ba6a654ee0d0ba8f7e603683a8094c49647344974bdb978441ec0861fe8"
+        },
+        "vector_sha256": "12d6d1c380e416a61c0c084f99de4e85de56dbd73fefa7e347e9b47cf9562c2c"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/workshop-director/scripts/complaint_execution_launcher.py",
+        "sha256": "9ccb5c5cf609b9ba13c08022ae1ceba8dbd4d03a713099fe88c39240539d070d"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/references/completed-source-archives/9ccb5c5cf609b9ba13c08022ae1ceba8dbd4d03a713099fe88c39240539d070d.py",
+        "sha256": "9ccb5c5cf609b9ba13c08022ae1ceba8dbd4d03a713099fe88c39240539d070d"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-26/shanghai-only-active-company-maintenance/supervisor-release.json",
+          "sha256": "25fa624a49e62780ef845673f00357b0b22f71668a290bd82f6e41a29d6e82fb"
+        },
+        "slot": "after"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/workshop-director/scripts/daily_execution_launcher.py",
+        "sha256": "94a287637683b13d6ad9548b30532294942e5c3fd0fe14c2bdc34d3e2136731b"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/references/completed-source-archives/94a287637683b13d6ad9548b30532294942e5c3fd0fe14c2bdc34d3e2136731b.py",
+        "sha256": "94a287637683b13d6ad9548b30532294942e5c3fd0fe14c2bdc34d3e2136731b"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/daily-notify-preoutbox-recovery/supervisor-release.json",
+          "sha256": "411f68142c0b3443e31c6a9fadd6e2097c47d52bbca7ea95d08c188f1761dbfc"
+        },
+        "slot": "before"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/scripts/initial_ledger_recovery.py",
+        "sha256": "4470cbb9c42763f3ff6326aa45ddfd80b76a10a92eee33c56d937a6ac764f878"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/references/completed-source-archives/4470cbb9c42763f3ff6326aa45ddfd80b76a10a92eee33c56d937a6ac764f878.py",
+        "sha256": "4470cbb9c42763f3ff6326aa45ddfd80b76a10a92eee33c56d937a6ac764f878"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/wecom-scoped-guard-materials-publication/supervisor-release.json",
+          "sha256": "3ddb3bec7661f0225990aa9395f5b16adbcfaaa196b527a33fe9ec9e9b313695"
+        },
+        "slot": "after"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/bridge-workflow.py",
+        "sha256": "a34ad5d6d89daea337ac033e40c9b2e86a5312eb42af6faa6dd4d3f49a5c72fd"
+      },
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/negative-review-complaints/references/completed-source-archives/a34ad5d6d89daea337ac033e40c9b2e86a5312eb42af6faa6dd4d3f49a5c72fd.py",
+        "sha256": "a34ad5d6d89daea337ac033e40c9b2e86a5312eb42af6faa6dd4d3f49a5c72fd"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/round005-export-modal-readiness-publication/supervisor-release.json",
+          "sha256": "70e90a8811def32f089569cdf6cadf2d384b1e5840806fb9752ac65592f3601f"
+        },
+        "slot": "after"
+      }
+    }
+  ]
+}

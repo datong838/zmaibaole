@@ -1,0 +1,34 @@
+{
+  "role": "douyin-laike-operator",
+  "backend": "local-dom-bridge",
+  "required_tool": "local-cli",
+  "dependency": "../chrome-dom-export/scripts/bridge.py",
+  "runtime": "scripts/bridge-workflow.py",
+  "cli": "scripts/role_cli.py",
+  "protocol": "journal-v1",
+  "operations": [
+    "prepare",
+    "tick",
+    "status",
+    "finalize"
+  ],
+  "explicit_tab_id_required": true,
+  "debug_port_started_by_role": false,
+  "cookie_access": false,
+  "coordinate_actions": false,
+  "wecom_send": false,
+  "legacy": {
+    "backend": "codex-existing-extension",
+    "receipt_reading_supported": true,
+    "prepare_requires_explicit_backend": true
+  },
+  "live_validation": {
+    "scope": "one-company-acquisition-and-statistics",
+    "company": "烟台一成教育文化咨询有限公司",
+    "page_filtered": 107,
+    "good": 103,
+    "bad": 4,
+    "receipt": "../../work/2026-10-20/daily/01_烟台一成教育文化咨询有限公司/receipt.json",
+    "all_three_workflows_accepted": false
+  }
+}

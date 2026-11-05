@@ -1,0 +1,23 @@
+// Public DOM snapshots replayed in a fake DOM, no Chrome access.
+const vm=require('node:vm'),fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+// Resolve independent of invocation cwd; files are local real observations, never current collection.
+const evidence=path.resolve(process.cwd(),'work/live-acceptance/violations/2026-10-21/preparation/01_烟台一成教育文化咨询有限公司/profile-discovery-evidence');
+let listener,body;
+function self(e,s){if(s.includes(','))return s.split(',').some(q=>self(e,q));if(s.includes('['))return false;if(s.startsWith('#'))return e.id===s.slice(1);const bits=s.split('.'),tag=bits.shift();return (!tag||e.tagName===tag.toUpperCase())&&bits.every(c=>e.classList.contains(c));}
+function match(e,s){const parts=s.split(' ');if(!self(e,parts.pop()))return false;while(parts.length){const part=parts.pop();let p=e.parentElement;while(p&&!self(p,part))p=p.parentElement;if(!p)return false;e=p;}return true;}
+function flatten(e){return e.children.flatMap(x=>[x,...flatten(x)]);}
+function build(n,parent=null){const attrs={...n.attributes};if(n.placeholder)attrs.placeholder=n.placeholder;const e={nodeType:1,tagName:(n.tag||'div').toUpperCase(),innerText:n.name||'',textContent:n.name||'',attrs,id:attrs.id||'',type:'text',disabled:!!n.disabled,value:attrs.value||'',originalSelector:n.selector,parentElement:parent,children:[],getAttribute(k){return this.attrs[k]??null;},hasAttribute(k){return k in this.attrs;},getClientRects(){return [1]},closest(s){for(let p=this;p;p=p.parentElement)if(match(p,s))return p;return null},contains(x){return x===this||flatten(this).includes(x)},querySelectorAll(s){return flatten(this).filter(x=>match(x,s))},querySelector(s){return this.querySelectorAll(s)[0]||null},click(){this.clickCount=(this.clickCount||0)+1;}};e.classList={contains:c=>String(e.attrs.class||'').split(/\s+/).includes(c)};if(e.tagName==='INPUT')e.labels=[{textContent:n.name||n.placeholder||''}];if(e.tagName==='BUTTON')e.type='submit';e.children=(n.children||[]).map(c=>build(c,e));return e;}
+const document={querySelectorAll(s){return [body,...flatten(body)].filter(e=>e.originalSelector===s||match(e,s));},getElementById(id){return [body,...flatten(body)].find(e=>e.id===id)}};
+const ctx={document,chrome:{runtime:{id:'test',onMessage:{addListener(f){listener=f;}}}},location:{origin:'https://life.douyin.com',pathname:'',href:''},CSS:{escape:s=>s},getComputedStyle:()=>({visibility:'visible'}),URL,Event:class{}};vm.createContext(ctx);for(const f of ['policy.js','content.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'../extension',f),'utf8'),ctx);
+function load(kind){const tree=JSON.parse(fs.readFileSync(path.join(evidence,'001-'+kind+'.json'))).tree;body=build(tree.root);document.body=body;ctx.location.pathname=new URL(tree.url).pathname;ctx.location.href=tree.url;return [body,...flatten(body)];}
+function run(e,kind){let r;listener({channel:'local-dom-export-v1',op:'click',kind,locator:{by:'selector',value:e.originalSelector}},{id:'test'},v=>r=v);return r;}
+const real=JSON.parse(fs.readFileSync(path.resolve(process.cwd(),'work/live-acceptance/complaints/live-profile/013-lumos-result-fresh.json'))).result;
+function complaint(){body=build(real.root);document.body=body;ctx.location.pathname='/p/life_comment/management';ctx.location.href='https://life.douyin.com/p/life_comment/management';const ns=[body,...flatten(body)];return {ns,close:ns.find(e=>e.attrs.class==='byted-drawer-close-icon'),drawer:ns.find(e=>e.classList.contains('drawer-container-oSzIEl'))};}
+let f=complaint(),r=run(f.close,'complaint-read');assert.equal(r.ok,true,r.error);assert.equal(f.close.clickCount,1);
+f=complaint();assert.equal(run(f.close,'navigation').ok,false);assert.equal(f.close.clickCount,undefined);
+f=complaint();f.drawer.attrs.class='byted-drawer-dialog byted-drawer-dialog-show other-container';assert.equal(run(f.close,'complaint-read').ok,false);
+f=complaint();f.drawer.innerText='投诉评价 顾客评价 缺少举报栏目';assert.equal(run(f.close,'complaint-read').ok,false);
+f=complaint();f.close.attrs.class='byted-drawer-close-icon ordinary';assert.equal(run(f.close,'complaint-read').ok,false);
+f=complaint();const again=f.ns.find(e=>e.innerText==='再次投诉'&&e.children.length===0);assert.ok(again);assert.equal(run(again,'complaint-read').ok,false);assert.equal(again.clickCount,undefined);
+f=complaint();ctx.location.pathname='/p/governance/violation_list';assert.equal(run(f.close,'complaint-read').ok,false);
+console.log('Real 013 result drawer close passes narrowly; wrong drawer/type/path, blank ordinary close and repeat-complaint action rejected (offline only).');

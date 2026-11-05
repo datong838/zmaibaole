@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>本地 DOM 桥接</title></head>
+<body><h1>本地 DOM 桥接（无调试接口）</h1>
+<p>保持此扩展控制页打开可加快轮询；不需要打开开发者工具。关闭后由扩展闹钟约每 30 秒轮询。</p>
+<p>此扩展只允许抖音来客页面内的 DOM 读取与经过白名单审核的导航、筛选、导出操作。</p>
+<p>安装后先把下方扩展 ID 交给本机 bind 命令。切勿在网站表单中粘贴密钥。</p>
+<button id="refresh" type="button">加载已审核扩展更新</button><pre id="identity"></pre><pre id="loaded-version"></pre><pre id="status">正在连接…</pre><script src="control.js"></script></body></html>

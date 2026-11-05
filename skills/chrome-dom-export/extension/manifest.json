@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Local DOM Export Bridge (No Debugger)",
+  "version": "1.0.23",
+  "minimum_chrome_version": "120",
+  "description": "Loopback-only DOM inspection and allowlisted read/export actions. No debugging APIs.",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "downloads",
+    "alarms",
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://life.douyin.com/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "sw17.js"
+  },
+  "action": {
+    "default_title": "Open local DOM bridge control"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://life.douyin.com/*"
+      ],
+      "js": [
+        "policy.js",
+        "viewport-proof.js",
+        "review-proof.js",
+        "region-proof.js",
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "world": "ISOLATED"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src http://127.0.0.1:17341"
+  }
+}

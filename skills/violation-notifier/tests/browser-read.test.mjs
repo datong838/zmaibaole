@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {validateProfile,createReader} from '../scripts/browser-read.mjs';
+assert.throws(()=>validateProfile({status:'awaiting-live-validation'}),/not-accepted/);
+const profile={status:'live-validated',revision:'fixture'};
+for(const k of ['row','noticeId','subject','reason','objectType','objectName','actions','effectiveness','rectification','date','next','total','dateInput'])profile[k]='[data-'+k+']';
+const job={company:'测试公司',groupid:'123',account_verified:true,identity:{provider:'p',account_id:'id',manager:'m'}};
+let clicks=0;
+const locator={filter(){return this;},getByText(text){assert.equal(text,'查看详情');return this;},async count(){return 1;},async click(){clicks++;}};
+const tab={async url(){return 'https://life.douyin.com/?groupid=123';},playwright:{locator(){return locator;},getByText(){return locator;},async domSnapshot(){return '评价管理';}}};
+const reader=createReader(tab,job,profile);
+await assert.rejects(()=>reader.openDetail('id'),/context-required/);assert.equal(clicks,0);
+await reader.context();await reader.openDetail('id');assert.equal(clicks,1);
+assert.equal('submit' in reader,false);assert.equal('rectify' in reader,false);
+assert.throws(()=>createReader(tab,{...job,account_verified:false},profile),/account-unverified/);
+const wrong=createReader({...tab,url:async()=> 'https://life.douyin.com/?groupid=999'},job,profile);
+await assert.rejects(()=>wrong.context(),/company-origin/);
+console.log('Violation read-only adapter boundaries passed (mock only).');

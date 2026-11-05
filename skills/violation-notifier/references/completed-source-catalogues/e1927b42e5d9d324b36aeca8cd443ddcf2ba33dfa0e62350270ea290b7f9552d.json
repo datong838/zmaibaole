@@ -1,0 +1,355 @@
+{
+  "entries": [
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/9378e73975f060a0a8d9202880aa6846df747fa47248b5f8d34d23dcf77fb6f9.py",
+        "sha256": "9378e73975f060a0a8d9202880aa6846df747fa47248b5f8d34d23dcf77fb6f9"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-26/violation-confirmed-center-field8-publication/supervisor-release.json",
+          "sha256": "398064b2a5a73ac5211c17b74e2afdf4cedefb40f9b211204b0e1ed43db9ae68"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/bridge-navigation.py",
+        "sha256": "9378e73975f060a0a8d9202880aa6846df747fa47248b5f8d34d23dcf77fb6f9"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/4950e07bd60d32bd79db56d676591d91c09d56b7558bbd45296965c833f89957.py",
+        "sha256": "4950e07bd60d32bd79db56d676591d91c09d56b7558bbd45296965c833f89957"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/violation-settled-zero-field8-publication/supervisor-release.json",
+          "sha256": "fb5870697fa191957c8e094f72d488dc162cad42065a9880422ae08c7aeb5b51"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_zero_capture.py",
+        "sha256": "4950e07bd60d32bd79db56d676591d91c09d56b7558bbd45296965c833f89957"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/b902cab6b4541ba6b4f1fcd861c656c211739ade9c81d3ca4a1d2aee7a2f7936.py",
+        "sha256": "b902cab6b4541ba6b4f1fcd861c656c211739ade9c81d3ca4a1d2aee7a2f7936"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/violation-settled-zero-field8-publication/supervisor-release.json",
+          "sha256": "fb5870697fa191957c8e094f72d488dc162cad42065a9880422ae08c7aeb5b51"
+        },
+        "slot": "before"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/governance_zero_capture.py",
+        "sha256": "b902cab6b4541ba6b4f1fcd861c656c211739ade9c81d3ca4a1d2aee7a2f7936"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/8a75449ecd4a5ba0ab4d0c45053c01098d880bc2d75e4a69ba5c8c6ac6debf3f.py",
+        "sha256": "8a75449ecd4a5ba0ab4d0c45053c01098d880bc2d75e4a69ba5c8c6ac6debf3f"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/violation-settled-zero-field8-publication/supervisor-release.json",
+          "sha256": "fb5870697fa191957c8e094f72d488dc162cad42065a9880422ae08c7aeb5b51"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_execution_ports.py",
+        "sha256": "8a75449ecd4a5ba0ab4d0c45053c01098d880bc2d75e4a69ba5c8c6ac6debf3f"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/a3f25afb2cd04df840c7b740ccbc2a8e66e2595dc58796f61a07d6bd4a2183b2.py",
+        "sha256": "a3f25afb2cd04df840c7b740ccbc2a8e66e2595dc58796f61a07d6bd4a2183b2"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/violation-settled-zero-field8-publication/supervisor-release.json",
+          "sha256": "fb5870697fa191957c8e094f72d488dc162cad42065a9880422ae08c7aeb5b51"
+        },
+        "slot": "before"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_execution_ports.py",
+        "sha256": "a3f25afb2cd04df840c7b740ccbc2a8e66e2595dc58796f61a07d6bd4a2183b2"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/04418f0bfcb930b37db79f3b2889368fad4e2eb6befda02a2ce49d08952f8941.py",
+        "sha256": "04418f0bfcb930b37db79f3b2889368fad4e2eb6befda02a2ce49d08952f8941"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-26/violation-confirmed-center-field8-publication/supervisor-release.json",
+          "sha256": "398064b2a5a73ac5211c17b74e2afdf4cedefb40f9b211204b0e1ed43db9ae68"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_initial_ledger_recovery.py",
+        "sha256": "04418f0bfcb930b37db79f3b2889368fad4e2eb6befda02a2ce49d08952f8941"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/e2744d9d6eebae28fe3e151d3177b31031bb259e888b63002f466715fe2d704b.py",
+        "sha256": "e2744d9d6eebae28fe3e151d3177b31031bb259e888b63002f466715fe2d704b"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/violation-settled-zero-field8-publication/supervisor-release.json",
+          "sha256": "fb5870697fa191957c8e094f72d488dc162cad42065a9880422ae08c7aeb5b51"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_initial_ledger_recovery.py",
+        "sha256": "e2744d9d6eebae28fe3e151d3177b31031bb259e888b63002f466715fe2d704b"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/10cc424e8d4a0b0322793884d62d9252a985b7d5b8f2187ba60c291d32d0cdb9.py",
+        "sha256": "10cc424e8d4a0b0322793884d62d9252a985b7d5b8f2187ba60c291d32d0cdb9"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/violation-dual-transport-catalogue-publication/supervisor-release.json",
+          "sha256": "f510c1d36f53a12a3bce65856252362e239b9d89725e69aa834608702e0b958a"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/bridge-navigation.py",
+        "sha256": "10cc424e8d4a0b0322793884d62d9252a985b7d5b8f2187ba60c291d32d0cdb9"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/3a0a206e7cba571645ade15aa189014260ffab3ab9177dd2c93e3e3eddfa4b9f.py",
+        "sha256": "3a0a206e7cba571645ade15aa189014260ffab3ab9177dd2c93e3e3eddfa4b9f"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/violation-dual-transport-catalogue-publication/supervisor-release.json",
+          "sha256": "f510c1d36f53a12a3bce65856252362e239b9d89725e69aa834608702e0b958a"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_initial_ledger_recovery.py",
+        "sha256": "3a0a206e7cba571645ade15aa189014260ffab3ab9177dd2c93e3e3eddfa4b9f"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/a4d4a6c2e9290b694d7658d21c6fbe28f5c331106ea546ce592923fee8d6961b.py",
+        "sha256": "a4d4a6c2e9290b694d7658d21c6fbe28f5c331106ea546ce592923fee8d6961b"
+      },
+      "generation": {
+        "kind": "completed-original-source-vector-seed-v1",
+        "parent": {
+          "path": "/Users/feibing/work/projects/zmaibaole/runtime/workshop-director/role-executions/04aa9bbc9f52203b562ea0364db96afa8dc54fd842393544a5f2f161c5e41aa1/launcher.json",
+          "sha256": "d3f02ba6a654ee0d0ba8f7e603683a8094c49647344974bdb978441ec0861fe8"
+        },
+        "vector_sha256": "12d6d1c380e416a61c0c084f99de4e85de56dbd73fefa7e347e9b47cf9562c2c"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/wecom-messenger/scripts/files.py",
+        "sha256": "a4d4a6c2e9290b694d7658d21c6fbe28f5c331106ea546ce592923fee8d6961b"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/509f94f6134bc8ddee4a99d7a8b812dffe0e34540b0bdd59d310e5dd64790aaa.py",
+        "sha256": "509f94f6134bc8ddee4a99d7a8b812dffe0e34540b0bdd59d310e5dd64790aaa"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/violation-missing-gid-field8-publication/supervisor-release.json",
+          "sha256": "94375e20a4b83a5e1a7290c9fd3cedc006719fe182c4770c157b695c3b119597"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/bridge-navigation.py",
+        "sha256": "509f94f6134bc8ddee4a99d7a8b812dffe0e34540b0bdd59d310e5dd64790aaa"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/d92a2fd286cc7916465ab419df113f4652bd3a8c056f979939f02503a4d09dcc.py",
+        "sha256": "d92a2fd286cc7916465ab419df113f4652bd3a8c056f979939f02503a4d09dcc"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/violation-missing-gid-field8-publication/supervisor-release.json",
+          "sha256": "94375e20a4b83a5e1a7290c9fd3cedc006719fe182c4770c157b695c3b119597"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/violation_initial_ledger_recovery.py",
+        "sha256": "d92a2fd286cc7916465ab419df113f4652bd3a8c056f979939f02503a4d09dcc"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/a34ad5d6d89daea337ac033e40c9b2e86a5312eb42af6faa6dd4d3f49a5c72fd.py",
+        "sha256": "a34ad5d6d89daea337ac033e40c9b2e86a5312eb42af6faa6dd4d3f49a5c72fd"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/2026-10-27/round005-export-modal-readiness-publication/supervisor-release.json",
+          "sha256": "70e90a8811def32f089569cdf6cadf2d384b1e5840806fb9752ac65592f3601f"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/bridge-workflow.py",
+        "sha256": "a34ad5d6d89daea337ac033e40c9b2e86a5312eb42af6faa6dd4d3f49a5c72fd"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/52ed58cf2e27a41bdf5ece5071fc1a2c1fabd11601e20eff1617773e9f650d0e.py",
+        "sha256": "52ed58cf2e27a41bdf5ece5071fc1a2c1fabd11601e20eff1617773e9f650d0e"
+      },
+      "generation": {
+        "freeze": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/performance-audit/immutable-proof-dag-v3-investigation/freeze.json",
+          "sha256": "7193c0a5cce77d42861b2f9510f95e93a6f1c06d3b2827a304a3676e7b1e5647"
+        },
+        "kind": "reviewed-immutable-proof-dag-v3-source-generation-v1",
+        "payload": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/performance-audit/immutable-proof-dag-v3-investigation/verification_session.py",
+          "sha256": "52ed58cf2e27a41bdf5ece5071fc1a2c1fabd11601e20eff1617773e9f650d0e"
+        },
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/performance-audit/immutable-proof-dag-v3-investigation/supervisor-release.json",
+          "sha256": "49f18c5fe813185e5f44c9e9e1dd2fc7eef4df908f639d4650decfdc68a4eb32"
+        }
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/verification_session.py",
+        "sha256": "52ed58cf2e27a41bdf5ece5071fc1a2c1fabd11601e20eff1617773e9f650d0e"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/0630ce9e3dd0cf82b5c35d067a4a246c50dfab05caaa417e015cc84cccd6bc0a.py",
+        "sha256": "0630ce9e3dd0cf82b5c35d067a4a246c50dfab05caaa417e015cc84cccd6bc0a"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/performance-audit/violation-normal-send-readonly-integration-candidate/supervisor-release.json",
+          "sha256": "a94c17b60a40bfb9b76320e6a77e6c4b4293475b0b1a1d219a262b47891d8e45"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/workflow.py",
+        "sha256": "0630ce9e3dd0cf82b5c35d067a4a246c50dfab05caaa417e015cc84cccd6bc0a"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/a99b58336b8007825d27458fde04ea7ce68773181471c0d6f0e14a84daca301d.py",
+        "sha256": "a99b58336b8007825d27458fde04ea7ce68773181471c0d6f0e14a84daca301d"
+      },
+      "generation": {
+        "kind": "completed-original-source-vector-seed-v1",
+        "parent": {
+          "path": "/Users/feibing/work/projects/zmaibaole/runtime/workshop-director/role-executions/54836c25f548c4c316896e57c7ee3142623d9499a6125318df8a6c7ef52bf4af/launcher.json",
+          "sha256": "f60c06b250180c6e316b84edf7abbbd2c9dccdd743036818cb5a9b4e46d1d17f"
+        },
+        "vector_sha256": "b1d27f3fa48e394d6ec34bb7fbb45ab15a8ad077bd046ae837456328f1be8b05"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/scripts/bridge.py",
+        "sha256": "a99b58336b8007825d27458fde04ea7ce68773181471c0d6f0e14a84daca301d"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/8381addf15630c54d0d48a216f10126f5beb45a417194d78b11186c944560438.py",
+        "sha256": "8381addf15630c54d0d48a216f10126f5beb45a417194d78b11186c944560438"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/performance-audit/switch-confirm-settle-anchor-maintenance-candidate/supervisor-release.json",
+          "sha256": "df96d216218d29a4b4a751a9a34e6b6f5efbfa59e8405a8c4d49081fe5d8aaf9"
+        },
+        "slot": "after"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/douyin-laike-operator/scripts/switch_read_recovery.py",
+        "sha256": "8381addf15630c54d0d48a216f10126f5beb45a417194d78b11186c944560438"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/090a35790f9483694fd4c3868f7f8d975eebeea0592086a305c6ec422b2b4080.py",
+        "sha256": "090a35790f9483694fd4c3868f7f8d975eebeea0592086a305c6ec422b2b4080"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/performance-audit/export-terminal-prev-candidate/supervisor-release.json",
+          "sha256": "9eca07d03ad684968159c1052cde456fa21350acf2d8dfbf05c53872ddddce41"
+        },
+        "slot": "published_files"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/chrome-dom-export/extension/content.js",
+        "sha256": "090a35790f9483694fd4c3868f7f8d975eebeea0592086a305c6ec422b2b4080"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/d443fd705e0e3b42696d47cd3f9368182f3d09f3e32bb4427d149e58935e11f7.py",
+        "sha256": "d443fd705e0e3b42696d47cd3f9368182f3d09f3e32bb4427d149e58935e11f7"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/performance-audit/export-terminal-prev-candidate/supervisor-release.json",
+          "sha256": "9eca07d03ad684968159c1052cde456fa21350acf2d8dfbf05c53872ddddce41"
+        },
+        "slot": "published_files"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/center_analysis_tab.py",
+        "sha256": "d443fd705e0e3b42696d47cd3f9368182f3d09f3e32bb4427d149e58935e11f7"
+      }
+    },
+    {
+      "archive": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/references/completed-source-archives/70f078bca0fef9849ce9916c9b8f1e13122cc381c85243d12cb0dd42e3f070f4.py",
+        "sha256": "70f078bca0fef9849ce9916c9b8f1e13122cc381c85243d12cb0dd42e3f070f4"
+      },
+      "generation": {
+        "release": {
+          "path": "/Users/feibing/work/projects/zmaibaole/work/performance-audit/export-terminal-prev-candidate/supervisor-release.json",
+          "sha256": "9eca07d03ad684968159c1052cde456fa21350acf2d8dfbf05c53872ddddce41"
+        },
+        "slot": "published_files"
+      },
+      "original": {
+        "path": "/Users/feibing/work/projects/zmaibaole/skills/violation-notifier/scripts/bridge-profile-discovery.py",
+        "sha256": "70f078bca0fef9849ce9916c9b8f1e13122cc381c85243d12cb0dd42e3f070f4"
+      }
+    }
+  ],
+  "kind": "reviewed-violation-source-generation-catalogue-v1"
+}

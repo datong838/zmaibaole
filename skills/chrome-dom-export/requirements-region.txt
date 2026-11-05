@@ -1,0 +1,2 @@
+# Only semantic evidence-region pixel cropping; ordinary DOM bridge is stdlib.
+Pillow>=11.3,<12

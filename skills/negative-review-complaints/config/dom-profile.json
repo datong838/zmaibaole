@@ -1,0 +1,5 @@
+{
+  "status": "awaiting-live-validation",
+  "revision": null,
+  "reason": "尚未取得本次投诉页面的实时DOM；不猜测选择器。边界、稳定ID、日期星级、历史和截图API需要下次实操验收。"
+}

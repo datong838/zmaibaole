@@ -1,0 +1,25 @@
+const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),assert=require('node:assert/strict');
+(async()=>{
+  const role=(await import(require('node:url').pathToFileURL(path.join(__dirname,'../scripts/acquire.mjs')).href)).default;
+  assert.equal(role.matchCompany('烟台 一成有限公司',['烟台一成有限公司','上海另一家有限公司']),'烟台一成有限公司');
+  assert.throws(()=>role.matchCompany('上海',['上海甲公司','上海乙公司']),/ambiguous/);
+  assert.throws(()=>role.matchCompany('不存在',['上海甲公司']),/not-found/);
+  let clicked=0;
+  const locator={count:async()=>2,isVisible:async()=>true,isEnabled:async()=>true,click:async()=>{clicked++;}};
+  await assert.rejects(()=>role.unique(locator),/ambiguous/);assert.equal(clicked,0);
+  await assert.rejects(()=>role.clickText('删除'),/forbidden/);
+  let op=await role.create({}, {},{action:'acquire',company:'甲公司',groupid:'123',date_range:{start:'2026-10-16',end:'2026-10-18'},resume:{export_pending:true,checkpoints:[{stage:'filter',page_filtered:3},{stage:'export-generated',generated_at:'2026-10-20 15:37:55'},{stage:'download-intent'}]}});
+  assert.equal(op.pageFiltered,3);assert.equal(op.generatedAt,'2026-10-20 15:37:55');
+  await assert.rejects(()=>op.prepareSubmit(),/outcome-unknown/);
+  await assert.rejects(()=>op.armDownload(),/outcome-unknown/);
+  op.submitted=false;op.submitIntent={};op.identityVerified=true;op.contextVerified=true;op.exportRange=async()=>({correct:true});op.tab={playwright:{getByRole:()=>({...locator,count:async()=>1})}};
+  await assert.rejects(()=>op.submit(false),/intent/);assert.equal(clicked,0);
+  await op.submit(true);assert.equal(clicked,1);await assert.rejects(()=>op.submit(true),/already/);assert.equal(clicked,1);
+  op=Object.create(role);op.observe=async()=>({groupid:'wrong'});op.job={groupid:'123'};
+  await assert.rejects(()=>op.verifySwitch(),/company-mismatch/);
+  op=Object.create(role);op.observe=async()=>({groupid:'123'});op.job={groupid:'123',company:'甲公司'};op.identityBefore={provider:'a',account_id:'1',manager:'m'};op.account=async()=>({identity:{provider:'a',account_id:'2',manager:'m'}});
+  await assert.rejects(()=>op.verifySwitch(),/account-changed/);
+  op=Object.create(role);op.browser={tabs:{list:async()=>[{id:'allowed',url:'https://life.douyin.com/p/export_records/20101?groupid=123'},{id:'other',url:'https://life.douyin.com/p/export_records/20101?groupid=999'}]}};op.job={groupid:'123'};
+  const tabs=await op.recordTabs();assert.equal(tabs.length,1);assert.equal(tabs[0].id,'allowed');await assert.rejects(()=>op.useRecordTab('other'),/not-observed/);
+  console.log('Operator runtime: matching, ambiguity, no-write controls, resume, intent, identity and group isolation passed (mock host).');
+})().catch(e=>{console.error(e);process.exitCode=1;});
